@@ -35,7 +35,7 @@ class Automation:
                                         "cases for their code"},
                             {"role": "user",
                              "content": f"Write me test cases for functions presents in the python file "
-                                        f"provided below\n"
+                                        f"provide below\n"
                                         f"{self.main_content}\nGenerate test cases for the entire code "
                                         f"aiming for 100% coverage"},
                             {"role": "assistant", f"content": f"Sure, here are your test cases \n "
