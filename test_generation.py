@@ -1,4 +1,4 @@
-from automate import Automation
+from automate import TestGenerationAutomation
 from Traverse import Traverse
 
 
@@ -20,7 +20,7 @@ class TestGeneration:
         function_list = traverse_instance.get_list()
 
         # Creating Automation class instance to generate test cases
-        automation_instance = Automation(sample_function, sample_test_function)
+        automation_instance = TestGenerationAutomation()
 
         for function in function_list:
             with open(function[1], 'r') as file:
