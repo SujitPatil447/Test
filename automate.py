@@ -81,7 +81,5 @@ def main():
 
 
 if __name__ == "__main__":
-    test_ex = TestGenerationAutomation()
-    test_ex.test_case_generation(r'C:\test-gpt\test_gpt\example.py', "example")
-
+    main()
 
